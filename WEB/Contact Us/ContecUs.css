@@ -1,0 +1,305 @@
+*{
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header{
+    background-color: #444444;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10;
+}
+.logo{
+    cursor: pointer;
+}
+.nav_link{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav_link li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    text-decoration: dotted;
+}
+.nav_link li a:hover{
+    color: cyan;
+    border-radius: 25px;
+    transition: all 0.3s ease 0s;
+}
+button{
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: white;
+}
+
+
+/* footer */
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+    
+.footer{
+    background: #444444;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold;
+    padding: 30px 30px 40px 30px;
+    margin-top: 100px;
+}
+
+.footer .FL,
+.footer .FC,
+.footer .FR{
+      display: inline-block;
+      vertical-align: top;
+}
+
+
+
+.footer .FL{
+width: 20%;
+}
+
+.footer h3{
+    color:#FFFFFF ;
+    margin: 0;
+    padding-bottom: -2px;
+}
+
+.footer h4{
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 10%;
+}
+
+.footer .FC{
+    width: 30%;
+    margin: 0;
+}
+
+.FC .Ig .igp{
+    display: inline-block;
+    color: #FFFFFF;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.FC .Fb .fbp{
+    display: inline-block;
+    color: #FFFFFF;
+    vertical-align: middle;
+    padding-top: 10%;
+}
+
+.footer .FR{
+    width: 30%;
+    margin: 0;
+}
+
+.footer .FR .forinfo{
+    line-height: 20px;   
+}
+.ul_footer{
+ 
+    text-align: right; 
+    margin-top: -20px;
+    padding: 0px 20px;
+    padding-bottom: 5px;
+}
+
+.ul_footer li{      
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+}
+
+.ul_footer li a{
+    text-decoration: none;
+    color:#ffffff;
+    padding: 0 10px;
+    position: relative;
+}
+
+
+.ul_footer li :hover{
+    color: #44CFCF;
+}
+
+.container_ContectUs{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.contain_ContectUs{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.contain_sel_ContectUs{
+    float: right;
+    width: 55%;
+}
+
+.imgContectUs{
+    float: left;
+    width: 40%;
+}
+
+.imgContectUs img{
+    width: 100%;
+    height: auto;
+    width: 80%;
+    border-radius: 40px;
+
+}
+
+.titelContectUs h1{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+.contain_sel_ContectUs .desciption .alamat{
+    margin-top:20px;
+    line-height: 1.5;
+    margin-right: 30px;
+    
+}
+
+.ContectUs h1{
+    font-size: 50px;
+    text-align: center; 
+    margin-top: 20px;
+     
+}
+
+.Contact_ContectUs{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.Sosmed_ContectUs{
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+    .ContectUs h1{
+        font-size: 50px;
+        text-align: center; 
+        margin-top: 20px;
+         
+    }
+
+    .contain_ContectUs{
+        width: 80%;
+        display: block;
+        margin: auto;
+        padding-top: 100px;
+    }
+
+    .contain_sel_ContectUs{
+        float: none;
+        width: 55%;
+        display: block;
+        margin: auto;
+    }
+
+    .imgContectUs{
+        float: none;
+        width: 55%;
+        display: block;
+        margin: auto;
+    }
+
+    .contain_sel_ContectUs .titelAbout h1{
+        text-align: center;   
+    }
+
+    .contain_sel_ContectUs .desciption .alamat{
+    text-align: left;
+    margin-top:20px;
+    
+    
+    }
+
+    .titelContectUs h1{
+       
+        font-size: 20px;
+        display: inline-block;
+        margin-right: 30px;
+        
+    }
+   
+    .Contact_ContectUs{
+        font-size: 13px;
+        display: inline-block;
+        margin-right: 30px;
+        
+    }
+    
+    .Sosmed_ContectUs{
+        font-size: 13px;
+        display: inline-block;
+        margin-right: 30px;
+        
+    }
+
+    .Sosmed_ContectUs .igcu{
+        font-size: 20px;
+        display: inline-block;
+        margin-right: 30px;
+    } 
+
+    .Sosmed_ContectUs .fbcu{
+        font-size: 20px;
+        display: inline-block;
+        margin-right: 30px;
+    } 
+
+    .ContectUs h1{
+        font-size: 50px;
+        text-align: center; 
+        margin-top: 20px;
+         
+    }
+
+    .footer{
+        background: #444444;
+        box-sizing: border-box;
+        width: 100%;
+        height: 16%;
+        text-align: left;
+        font: bold;
+        padding: 30px 30px 40px 30px;
+        margin-top: 100px;
+    }
+    
+
+}

@@ -1,0 +1,240 @@
+*{
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+}
+/* header */
+header{
+    background-color: #444444;     
+    align-items: center;
+    padding: 30px 10;
+    margin:  0;
+    
+}
+
+.pages{
+    margin:  auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    cursor: pointer;
+}
+.nav_link{
+    list-style: none;
+    margin-right: 30px;
+    text-align: right;
+    flex: 1;
+ 
+}
+.nav_link li{
+    display: inline-block;
+    padding: 0px 20px;
+    text-align: right;
+}
+
+.nav_link li a{
+    transition: all 0.3s ease 0s;
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    text-decoration: dotted;
+    text-align: right;
+}
+.nav_link li a:hover{
+    color: cyan;
+    border-radius: 25px;
+    transition: all 0.3s ease 0s;
+}
+button{
+    padding: 9px 25px;
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: white;
+}
+
+
+/* footer */
+
+footer{
+    position: fixed;
+    bottom: 0;
+}
+    
+.footer{
+    background: #444444;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold;
+    padding: 30px 30px 40px 30px;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.footer .FL,
+.footer .FC,
+.footer .FR{
+      display: inline-block;
+      vertical-align: top;
+}
+
+
+
+.footer .FL{
+width: 20%;
+}
+
+.footer h3{
+    color:#FFFFFF ;
+    margin: 0;
+    padding-bottom: -2px;
+}
+
+.footer h4{
+    color: #FFFFFF;
+    margin: 0;
+    padding-top: 10%;
+}
+
+.footer .FC{
+    width: 30%;
+    margin: 0;
+}
+
+.FC .Ig .igp{
+    display: inline-block;
+    color: #FFFFFF;
+    vertical-align: middle;
+    padding-bottom: 5px;
+}
+
+.FC .Fb .fbp{
+    display: inline-block;
+    color: #FFFFFF;
+    vertical-align: middle;
+    padding-top: 10%;
+}
+
+.footer .FR{
+    width: 30%;
+    margin: 0;
+}
+
+.footer .FR .forinfo{
+    line-height: 20px;
+}
+.ul_footer{
+ 
+    text-align: right; 
+    margin-top: -20px;
+    padding: 0px 20px;
+    padding-bottom: 5px;
+}
+
+.ul_footer li{      
+    display: inline-block;
+    list-style: none;
+    margin: 0 25px;
+}
+
+.ul_footer li a{
+    text-decoration: none;
+    color:#ffffff;
+    padding: 0 10px;
+    position: relative;
+}
+
+
+.ul_footer li :hover{
+    color: #44CFCF;
+}
+
+
+/* contine */
+
+.PICTURE{  
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.PICTURE .Portrait{
+    width: 100%;
+    height: auto;
+  
+}
+
+.PICTURE .Portrait img{
+    padding: auto;
+    margin: 50px;
+}
+
+.TITLEGALERI h1{
+    font-size: 50px;
+    text-align: center; 
+    margin-top: 20px;
+     
+}
+
+.TITLEGALERI .bottom{
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.botton1 {
+
+    display: flex;
+    background: rgb(230, 192, 25);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(197, 167, 35);
+    justify-content: center;
+    text-align: center;
+    
+  
+    
+    
+}
+
+.botton2 {
+    
+    display: flex;
+    background: rgb(230, 192, 25);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 3px solid rgb(197, 167, 35);
+    justify-content: center;
+    text-align: center;
+    
+    
+}
+
+.botton1:hover{
+    background: rgb(255, 208, 0);
+}
+
+.botton2:hover{
+    background: rgb(255, 208, 0);
+}
+
+
+.Portrait{
+    display: block;
+     
+}

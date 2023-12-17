@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>MT-Graphy</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Subscribe.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="pages">
+            <img class= "logo" src="../Photos/Logo.JPG" alt="Logo" height="80px">
+         
+            <ul class="nav_link">
+                <li><a href="../Home/Home.html">Home</a></li>
+                <li><a href="../Gallery Landscape/GaleriLandscape.html">Gallery</a></li>
+                <li><a href="../About us/AboutUs.html">About Us</a></li>
+                <li class="active"><a href="../Subscribe/Subscribe.html">Subscribe</a></li>
+            </ul>
+          
+       </div>
+    </header>
+
+    <!-- Subscribe -->
+    
+    <div class="body-sub">
+        <div class="photo">
+            <img src="../Photos/Subscribe_photo.JPG" alt="" width="80%">
+        </div>
+    
+        <div class="background">
+            <div class="form-reg">    
+                <p>Subscribe to our newsletter</p><br>
+            <form name='registration' onSubmit="return formValidation();">
+                <ul>
+                    <li><label for="username" ></label></li>
+                        <li><input type="text" placeholder="Enter Name"name="username" size="50" /></li><br>
+                    <li><label for="email"></label></li>
+                        <li><input type="text" placeholder="Enter Email" name="email" size="50" /></li><br>
+                    <li><label for="number"></label></li>
+                        <li><input type="text" placeholder="Enter Phone Number" name="number" /></li><br>
+                    <li><label for="country"></label></li>
+                        <li><select name="country">
+                                <option selected="" value="Default">Enter Country</option>
+                                <option value="ID">Indonesia</option>
+                                <option value="SG">Singapore</option>
+                                <option value="ML">Malaysia</option>
+                            </select></li><br>
+                    <p>by creating an account you agree to out <a href="#">Terms & Privacy</a>.</p>
+                    <br>
+                    <li><input type="submit" name="submit" value="Submit" /></li>
+                </ul>
+            </form>
+            </div>
+        </div>
+
+        
+    </div>
+
+    
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="FL">
+            <h3>Phone Number :</h3>
+            <h4>xxxx-xxxx-xxx</h4>
+        </div>
+        <div class="FC">         
+                <h3 style="color:#FFFFFF;">Social Media:</h3>
+                   <div class="Ig">
+                        <img class="ig"src="../Photos/Instagram_logo_2016.svg.png" alt="ING" height="20px">
+                        <igp style="color:#FFFFFF;">MTgraphy</igp>
+                   </div>
+                   <div class="Fb">
+                        <img class="FB"src="../Photos/11-115962_facebook-logo-png-transparent-background-facebook-png.png" alt="FCK" height="20px">
+                        <fbp style="color:#FFFFFF;">MTgraphy</fbp>
+                   </div>         
+        </div>
+  
+        <div class="FR">
+            <div class="forinfo">
+              <h3>For More Information :</h3> 
+             
+                   <ul class="ul_footer">
+                      <li><a href="../Contact Us/ContectUs.html">Contact Us</a></li>                              
+                   </ul>
+                    
+                </div>
+            </div>
+        </div>
+  </footer>
+</body>
+</html>
